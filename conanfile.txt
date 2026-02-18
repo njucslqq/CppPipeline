@@ -1,0 +1,18 @@
+[requires]
+spdlog/1.12.0
+nlohmann_json/3.11.2
+fmt/10.1.1
+backward-cpp/1.6
+
+[generators]
+bazel
+json
+
+[options]
+*:shared=True
+
+[imports]
+bin, *.dll -> ./bin
+bin, *.dylib* -> ./lib
+lib, *.dylib* -> ./lib
+lib, *.so* -> ./lib

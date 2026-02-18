@@ -1,0 +1,2 @@
+build --repo_env=CONAN_REVISIONS_ENABLED=1
+build --enable_platform_specific_config

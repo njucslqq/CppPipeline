@@ -39,3 +39,28 @@
 
 # debug information files
 *.dwo
+
+# Bazel
+bazel-*
+*.syms
+
+# Conan
+conan/
+conan.lock
+conan_build_info.json
+conanfile.pyc
+conanfile.*.json
+
+# Generated data
+data/
+memory_*.log
+memory_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
